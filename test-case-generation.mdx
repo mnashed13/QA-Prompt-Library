@@ -1,0 +1,149 @@
+---
+title: "Test Case Generation Prompts"
+description: "AI-powered prompts for generating comprehensive test cases"
+---
+
+# Test Case Generation Prompts
+
+This section provides prompts designed to help you generate comprehensive test cases using AI. These prompts are structured to ensure thorough coverage of functionality while maintaining clarity and specificity.
+
+## Basic Test Case Generation
+
+### Prompt Template
+
+```text
+Generate test cases for the following feature/functionality:
+[Feature Name]: [Brief description of the feature]
+
+Requirements:
+1. [Requirement 1]
+2. [Requirement 2]
+...
+
+Please include:
+- Test case ID
+- Test case description
+- Pre-conditions
+- Test steps
+- Expected results
+- Priority level (High/Medium/Low)
+- Test type (Functional/Non-functional)
+```
+
+### Example Usage
+
+```text
+Generate test cases for the following feature/functionality:
+User Authentication: Login functionality for a web application
+
+Requirements:
+1. Users must be able to login with email and password
+2. Password must be at least 8 characters long
+3. System should show appropriate error messages for invalid credentials
+4. Users should be able to reset their password
+5. System should prevent brute force attacks
+
+Please include:
+- Test case ID
+- Test case description
+- Pre-conditions
+- Test steps
+- Expected results
+- Priority level (High/Medium/Low)
+- Test type (Functional/Non-functional)
+```
+
+## Advanced Test Case Generation
+
+### Edge Cases and Boundary Testing
+
+```text
+Generate edge case and boundary test cases for:
+[Feature Name]: [Brief description]
+
+Consider:
+1. Input validation boundaries
+2. System limitations
+3. Performance thresholds
+4. Data volume limits
+5. Time-based scenarios
+
+For each test case, include:
+- Scenario description
+- Input values
+- Expected behavior
+- Potential risks
+- Mitigation strategies
+```
+
+### Integration Test Cases
+
+```text
+Generate integration test cases for:
+[Feature Name] integration with [Dependent System]
+
+Focus on:
+1. Data flow between systems
+2. API interactions
+3. Error handling
+4. Performance impact
+5. Security considerations
+
+Include:
+- Integration points
+- Data mapping
+- Error scenarios
+- Recovery procedures
+- Performance metrics
+```
+
+## Best Practices
+
+When using these prompts:
+
+1. **Be Specific**: Provide detailed requirements and context
+2. **Include Constraints**: Mention any technical limitations or business rules
+3. **Consider Dependencies**: List any system dependencies or prerequisites
+4. **Define Success Criteria**: Clearly state what constitutes a successful test
+5. **Review and Refine**: Always review AI-generated test cases and adjust as needed
+
+## Tips for Better Results
+
+- Start with clear, well-defined requirements
+- Break down complex features into smaller, testable components
+- Include both positive and negative test scenarios
+- Consider security and performance implications
+- Review generated test cases for completeness and accuracy
+
+## Common Pitfalls to Avoid
+
+- Vague or ambiguous requirements
+- Missing pre-conditions or dependencies
+- Incomplete test steps
+- Unclear success criteria
+- Overlooking edge cases
+
+## Example Output Structure
+
+```markdown
+Test Case ID: TC-001
+Description: Verify successful login with valid credentials
+Pre-conditions:
+- User account exists in the system
+- User is not already logged in
+- System is accessible
+
+Test Steps:
+1. Navigate to login page
+2. Enter valid email address
+3. Enter valid password
+4. Click login button
+
+Expected Results:
+- User is successfully logged in
+- Dashboard page is displayed
+- User session is created
+
+Priority: High
+Test Type: Functional
+``` 

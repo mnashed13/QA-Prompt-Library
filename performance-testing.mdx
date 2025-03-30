@@ -1,0 +1,213 @@
+---
+title: "Performance Testing Prompts"
+description: "AI-powered prompts for creating comprehensive performance test scenarios"
+---
+
+# Performance Testing Prompts
+
+This section provides prompts designed to help you create effective performance test scenarios using AI. These prompts ensure thorough testing of system performance under various conditions.
+
+## Basic Performance Test Generation
+
+### Prompt Template
+
+```text
+Generate performance test scenarios for:
+[System/Feature]: [Brief description]
+
+Performance Requirements:
+- Response Time: [Target]
+- Concurrent Users: [Number]
+- Throughput: [Target]
+- Resource Usage: [Limits]
+
+Test Types:
+1. [Test Type 1]
+2. [Test Type 2]
+...
+
+Please include:
+- Test Scenarios
+- Test Data Requirements
+- Monitoring Points
+- Success Criteria
+- Resource Requirements
+```
+
+### Example Usage
+
+```text
+Generate performance test scenarios for:
+E-commerce Checkout Process: Payment processing under load
+
+Performance Requirements:
+- Response Time: < 2 seconds
+- Concurrent Users: 1000
+- Throughput: 100 transactions/minute
+- Resource Usage: CPU < 80%, Memory < 70%
+
+Test Types:
+1. Load Testing
+2. Stress Testing
+3. Endurance Testing
+4. Spike Testing
+
+Please include:
+- Test Scenarios
+- Test Data Requirements
+- Monitoring Points
+- Success Criteria
+- Resource Requirements
+```
+
+## Advanced Performance Testing
+
+### Load Testing Scenarios
+
+```text
+Generate load test scenarios for:
+[System/Feature]: [Description]
+
+Focus Areas:
+1. User Load
+2. Data Volume
+3. Transaction Rate
+4. Resource Utilization
+5. Response Times
+
+Include:
+- Test Scripts
+- Test Data
+- Monitoring Strategy
+- Success Metrics
+- Failure Criteria
+```
+
+### Stress Testing Scenarios
+
+```text
+Generate stress test scenarios for:
+[System/Feature]: [Description]
+
+Stress Points:
+1. System Limits
+2. Resource Exhaustion
+3. Error Handling
+4. Recovery Time
+5. Data Integrity
+
+Include:
+- Test Scenarios
+- Monitoring Points
+- Failure Criteria
+- Recovery Procedures
+- Analysis Methods
+```
+
+## Best Practices
+
+When using these prompts:
+
+1. **Define Clear Metrics**
+   - Response times
+   - Throughput
+   - Resource usage
+   - Error rates
+
+2. **Plan Test Data**
+   - Data volume
+   - Data variety
+   - Data distribution
+   - Data cleanup
+
+3. **Monitor Resources**
+   - CPU usage
+   - Memory usage
+   - Network usage
+   - Disk I/O
+
+4. **Document Results**
+   - Test conditions
+   - Test results
+   - Analysis
+   - Recommendations
+
+## Tips for Better Results
+
+1. **Start with Baseline**
+   - Measure current performance
+   - Document normal behavior
+   - Set performance targets
+
+2. **Use Appropriate Tools**
+   - Load testing tools
+   - Monitoring tools
+   - Analysis tools
+   - Reporting tools
+
+3. **Plan Test Environment**
+   - Hardware requirements
+   - Network setup
+   - Test data
+   - Monitoring setup
+
+4. **Analyze Results**
+   - Performance metrics
+   - Bottlenecks
+   - Optimization opportunities
+   - Recommendations
+
+## Common Pitfalls to Avoid
+
+1. **Incomplete Metrics**
+   - ❌ "Test system performance"
+   - ✅ "Test system performance with response time < 2s, throughput > 100 TPS"
+
+2. **Poor Test Data**
+   - ❌ "Use test data"
+   - ✅ "Use production-like data with 100,000 user profiles and 1M transactions"
+
+3. **Missing Monitoring**
+   - ❌ "Run performance tests"
+   - ✅ "Run performance tests with CPU, memory, network, and database monitoring"
+
+4. **Unclear Criteria**
+   - ❌ "Test until it breaks"
+   - ✅ "Test until response time exceeds 5s or error rate exceeds 1%"
+
+## Example Output Structure
+
+```markdown
+Performance Test Plan: E-commerce Checkout
+Version: 1.0
+Date: [Current Date]
+
+1. Test Objectives
+   - Performance Targets
+   - Test Scope
+   - Success Criteria
+
+2. Test Scenarios
+   - Load Testing
+   - Stress Testing
+   - Endurance Testing
+   - Spike Testing
+
+3. Test Environment
+   - Hardware Setup
+   - Network Configuration
+   - Test Data
+   - Monitoring Tools
+
+4. Test Execution
+   - Test Steps
+   - Data Requirements
+   - Monitoring Points
+   - Duration
+
+5. Results Analysis
+   - Performance Metrics
+   - Bottlenecks
+   - Recommendations
+   - Action Items
+``` 

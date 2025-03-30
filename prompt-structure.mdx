@@ -1,0 +1,130 @@
+---
+title: "Prompt Structure"
+description: "Understanding how to structure effective QA prompts"
+---
+
+# Prompt Structure
+
+This guide explains how to structure effective prompts for QA testing scenarios. A well-structured prompt helps AI models generate more accurate and useful responses.
+
+## Basic Prompt Components
+
+### 1. Context
+Provide clear context about:
+- The feature or functionality being tested
+- The testing environment
+- Any relevant dependencies
+- Current state or conditions
+
+### 2. Requirements
+List specific requirements including:
+- Functional requirements
+- Non-functional requirements
+- Business rules
+- Technical constraints
+
+### 3. Expected Output Format
+Specify the format you want the response in:
+- Test case structure
+- Bug report format
+- Test plan sections
+- Performance metrics
+
+### 4. Additional Parameters
+Include any specific parameters like:
+- Priority levels
+- Test types
+- Test categories
+- Performance thresholds
+
+## Example Structure
+
+```text
+[Context]
+Feature/Functionality: [Name]
+Environment: [Details]
+Dependencies: [List]
+
+[Requirements]
+1. [Requirement 1]
+2. [Requirement 2]
+...
+
+[Expected Output]
+Please provide:
+- [Output format 1]
+- [Output format 2]
+...
+
+[Additional Parameters]
+Priority: [Level]
+Test Type: [Type]
+Categories: [List]
+```
+
+## Best Practices
+
+1. **Be Specific**
+   - Use clear, unambiguous language
+   - Include exact values where applicable
+   - Specify version numbers and dependencies
+
+2. **Provide Context**
+   - Explain the purpose of the test
+   - Include relevant background information
+   - Mention any constraints or limitations
+
+3. **Structure Clearly**
+   - Use consistent formatting
+   - Break down complex requirements
+   - Use bullet points for clarity
+
+4. **Include Examples**
+   - Show sample inputs and outputs
+   - Provide real-world scenarios
+   - Include edge cases
+
+5. **Specify Constraints**
+   - Time limitations
+   - Resource constraints
+   - Technical limitations
+
+## Common Pitfalls to Avoid
+
+1. **Vague Language**
+   - ❌ "Test the login feature"
+   - ✅ "Test the login feature with email validation, password requirements, and session management"
+
+2. **Missing Context**
+   - ❌ "Generate test cases"
+   - ✅ "Generate test cases for the payment processing system in a production environment"
+
+3. **Incomplete Requirements**
+   - ❌ "Test the API"
+   - ✅ "Test the REST API endpoints for user management with authentication and rate limiting"
+
+4. **Unclear Output Format**
+   - ❌ "Write a bug report"
+   - ✅ "Write a bug report following the standard template with severity, priority, and reproduction steps"
+
+## Tips for Better Results
+
+1. **Start with a Template**
+   - Use predefined templates for consistency
+   - Customize based on specific needs
+   - Maintain version control of templates
+
+2. **Review and Refine**
+   - Test prompts with different AI models
+   - Gather feedback from team members
+   - Update based on results
+
+3. **Document Success**
+   - Keep track of effective prompts
+   - Share successful examples
+   - Build a prompt library
+
+4. **Iterate and Improve**
+   - Start with basic prompts
+   - Add complexity gradually
+   - Refine based on results 

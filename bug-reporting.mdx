@@ -1,0 +1,217 @@
+---
+title: "Bug Reporting Prompts"
+description: "AI-powered prompts for generating detailed bug reports"
+---
+
+# Bug Reporting Prompts
+
+This section provides prompts designed to help you generate comprehensive bug reports using AI. These prompts ensure that all necessary information is included and the reports are clear and actionable.
+
+## Basic Bug Report Generation
+
+### Prompt Template
+
+```text
+Generate a detailed bug report for the following issue:
+[Issue Description]: [Brief description of the bug]
+
+Environment:
+- Application Version: [Version]
+- Browser/Platform: [Details]
+- Steps to Reproduce: [List of steps]
+- Expected Behavior: [Description]
+- Actual Behavior: [Description]
+
+Additional Context:
+- Impact: [High/Medium/Low]
+- Frequency: [Always/Sometimes/Rarely]
+- Workaround: [If any]
+- Related Issues: [If any]
+
+Please include:
+- Bug ID
+- Title
+- Description
+- Steps to Reproduce
+- Expected vs Actual Results
+- Environment Details
+- Impact Assessment
+- Suggested Fix
+```
+
+### Example Usage
+
+```text
+Generate a detailed bug report for the following issue:
+Login Button Not Responding: The login button remains unclickable after entering credentials
+
+Environment:
+- Application Version: 2.1.0
+- Browser/Platform: Chrome 120.0.0 / Windows 10
+- Steps to Reproduce:
+  1. Navigate to login page
+  2. Enter valid credentials
+  3. Click login button
+- Expected Behavior: Button should be clickable and initiate login process
+- Actual Behavior: Button remains disabled after entering credentials
+
+Additional Context:
+- Impact: High (blocks user access)
+- Frequency: Always
+- Workaround: None
+- Related Issues: None
+
+Please include:
+- Bug ID
+- Title
+- Description
+- Steps to Reproduce
+- Expected vs Actual Results
+- Environment Details
+- Impact Assessment
+- Suggested Fix
+```
+
+## Advanced Bug Reporting
+
+### Visual Bug Reports
+
+```text
+Generate a visual bug report for:
+[Feature/Component]: [Description]
+
+Include:
+1. Screenshot descriptions
+2. Element locations
+3. Visual inconsistencies
+4. Responsive design issues
+5. Accessibility concerns
+
+Format:
+- Before/After comparisons
+- Device-specific issues
+- Browser compatibility
+- Color/contrast problems
+- Layout issues
+```
+
+### Performance Bug Reports
+
+```text
+Generate a performance bug report for:
+[Feature/Functionality]: [Description]
+
+Focus on:
+1. Response times
+2. Resource usage
+3. Memory leaks
+4. CPU utilization
+5. Network requests
+
+Include:
+- Performance metrics
+- Bottlenecks
+- Optimization suggestions
+- Monitoring data
+- Impact analysis
+```
+
+## Best Practices
+
+When using these prompts:
+
+1. **Be Specific**
+   - Include exact versions
+   - Provide detailed steps
+   - Specify environment details
+
+2. **Include Context**
+   - Business impact
+   - User impact
+   - System impact
+
+3. **Provide Evidence**
+   - Screenshots
+   - Logs
+   - Error messages
+   - Performance data
+
+4. **Suggest Solutions**
+   - Possible fixes
+   - Workarounds
+   - Prevention measures
+
+## Tips for Better Results
+
+1. **Start with Clear Information**
+   - Gather all relevant details
+   - Document steps carefully
+   - Include error messages
+
+2. **Use Templates**
+   - Follow standard formats
+   - Include all required fields
+   - Maintain consistency
+
+3. **Review and Validate**
+   - Check for completeness
+   - Verify accuracy
+   - Ensure clarity
+
+4. **Include Supporting Data**
+   - Logs
+   - Metrics
+   - Screenshots
+   - Videos
+
+## Common Pitfalls to Avoid
+
+1. **Incomplete Information**
+   - ❌ "Login doesn't work"
+   - ✅ "Login fails with 500 error after entering valid credentials"
+
+2. **Missing Steps**
+   - ❌ "Button doesn't work"
+   - ✅ "Submit button remains disabled after filling all required fields"
+
+3. **Vague Descriptions**
+   - ❌ "Page is slow"
+   - ✅ "Page load time exceeds 5 seconds on 4G network"
+
+4. **Missing Context**
+   - ❌ "Error occurs"
+   - ✅ "Error occurs when submitting form with special characters in name field"
+
+## Example Output Structure
+
+```markdown
+Bug ID: BUG-001
+Title: Login Button Unresponsive After Credential Entry
+Description: The login button remains disabled after entering valid credentials, preventing user authentication.
+
+Steps to Reproduce:
+1. Navigate to login page
+2. Enter valid email address
+3. Enter valid password
+4. Click login button
+
+Expected Results:
+- Button should be enabled and clickable
+- Clicking should initiate login process
+- User should be redirected to dashboard
+
+Actual Results:
+- Button remains disabled
+- No visual feedback
+- Login process not initiated
+
+Environment:
+- Application: v2.1.0
+- Browser: Chrome 120.0.0
+- OS: Windows 10
+- Network: Stable connection
+
+Impact: High
+Priority: P1
+Status: New
+``` 

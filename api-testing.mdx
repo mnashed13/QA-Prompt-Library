@@ -1,0 +1,223 @@
+---
+title: "API Testing Prompts"
+description: "AI-powered prompts for creating comprehensive API test scenarios"
+---
+
+# API Testing Prompts
+
+This section provides prompts designed to help you create effective API test scenarios using AI. These prompts ensure thorough testing of API endpoints, functionality, and integration.
+
+## Basic API Test Generation
+
+### Prompt Template
+
+```text
+Generate API test scenarios for:
+[API Service]: [Brief description]
+
+API Details:
+- Base URL: [URL]
+- Authentication: [Type]
+- Format: [JSON/XML]
+- Version: [Version]
+
+Endpoints:
+1. [Endpoint 1]
+2. [Endpoint 2]
+...
+
+Please include:
+- Test Cases
+- Request/Response Format
+- Authentication
+- Error Handling
+- Validation Rules
+```
+
+### Example Usage
+
+```text
+Generate API test scenarios for:
+User Management API: RESTful API for user operations
+
+API Details:
+- Base URL: https://api.example.com/v1
+- Authentication: Bearer Token
+- Format: JSON
+- Version: 1.0
+
+Endpoints:
+1. POST /users
+2. GET /users/{id}
+3. PUT /users/{id}
+4. DELETE /users/{id}
+5. GET /users/search
+
+Please include:
+- Test Cases
+- Request/Response Format
+- Authentication
+- Error Handling
+- Validation Rules
+```
+
+## Advanced API Testing
+
+### Integration Testing
+
+```text
+Generate API integration test scenarios for:
+[System/Service]: [Description]
+
+Integration Points:
+1. Authentication Service
+2. Database Service
+3. External APIs
+4. Message Queue
+5. Cache Service
+
+Include:
+- Test Cases
+- Data Flow
+- Error Scenarios
+- Performance Impact
+- Recovery Procedures
+```
+
+### Performance Testing
+
+```text
+Generate API performance test scenarios for:
+[API Service]: [Description]
+
+Performance Metrics:
+1. Response Time
+2. Throughput
+3. Concurrent Users
+4. Resource Usage
+5. Error Rates
+
+Include:
+- Test Scenarios
+- Load Patterns
+- Monitoring Points
+- Success Criteria
+- Failure Thresholds
+```
+
+## Best Practices
+
+When using these prompts:
+
+1. **Follow API Standards**
+   - REST principles
+   - HTTP methods
+   - Status codes
+   - Error handling
+
+2. **Validate Responses**
+   - Status codes
+   - Response format
+   - Data validation
+   - Error messages
+
+3. **Test Edge Cases**
+   - Invalid inputs
+   - Boundary values
+   - Error conditions
+   - Timeout scenarios
+
+4. **Document API**
+   - Endpoints
+   - Parameters
+   - Responses
+   - Error codes
+
+## Tips for Better Results
+
+1. **Start with Documentation**
+   - API specs
+   - Endpoint details
+   - Authentication
+   - Data models
+
+2. **Plan Test Approach**
+   - Test scope
+   - Test methods
+   - Tools selection
+   - Environment setup
+
+3. **Execute Tests**
+   - Follow sequence
+   - Document results
+   - Validate responses
+   - Handle errors
+
+4. **Analyze Results**
+   - Performance metrics
+   - Error patterns
+   - Response times
+   - Resource usage
+
+## Common Pitfalls to Avoid
+
+1. **Incomplete Coverage**
+   - ❌ "Test the API"
+   - ✅ "Test all endpoints with valid/invalid inputs, authentication, and error scenarios"
+
+2. **Missing Validation**
+   - ❌ "Check response"
+   - ✅ "Validate response status, format, data types, and business rules"
+
+3. **Poor Error Handling**
+   - ❌ "Handle errors"
+   - ✅ "Test error scenarios with proper status codes, error messages, and recovery"
+
+4. **Inadequate Documentation**
+   - ❌ "API tests"
+   - ✅ "Documented API tests with request/response examples, validation rules, and error handling"
+
+## Example Output Structure
+
+```markdown
+API Test Plan: User Management API
+Version: 1.0
+Date: [Current Date]
+
+1. API Overview
+   - Base URL
+   - Authentication
+   - Format
+   - Version
+
+2. Test Cases
+   - Create User
+   - Get User
+   - Update User
+   - Delete User
+   - Search Users
+
+3. Request/Response
+   - Request Format
+   - Response Format
+   - Status Codes
+   - Error Messages
+
+4. Authentication
+   - Token Management
+   - Authorization
+   - Error Handling
+   - Security
+
+5. Validation
+   - Input Validation
+   - Response Validation
+   - Business Rules
+   - Data Types
+
+6. Performance
+   - Response Time
+   - Throughput
+   - Concurrent Users
+   - Resource Usage
+``` 

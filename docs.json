@@ -1,0 +1,75 @@
+{
+    "name": "QA Prompt Library",
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg",
+        "href": "https://github.com/yourusername/QA-Prompt-Library"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#0EA5E9",
+        "light": "#38BDF8",
+        "dark": "#0284C7"
+    },
+    "theme": "mint",
+    "topbarLinks": [
+        {
+            "name": "Support",
+            "url": "https://github.com/yourusername/QA-Prompt-Library/issues"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "GitHub",
+        "url": "https://github.com/yourusername/QA-Prompt-Library"
+    },
+    "navigation": {
+        "groups": [
+            {
+                "group": "Getting Started",
+                "pages": [
+                    "introduction",
+                    "quickstart",
+                    "prompt-structure"
+                ]
+            },
+            {
+                "group": "QA Testing Prompts",
+                "pages": [
+                    "test-case-generation",
+                    "bug-reporting",
+                    "test-planning",
+                    "regression-testing",
+                    "performance-testing"
+                ]
+            },
+            {
+                "group": "Advanced Topics",
+                "pages": [
+                    "automation-testing",
+                    "security-testing",
+                    "api-testing",
+                    "best-practices"
+                ]
+            }
+        ],
+        "pages": [
+            "introduction",
+            "quickstart",
+            "prompt-structure",
+            "test-case-generation",
+            "bug-reporting",
+            "test-planning",
+            "regression-testing",
+            "performance-testing",
+            "automation-testing",
+            "security-testing",
+            "api-testing",
+            "best-practices"
+        ],
+        "versions": [],
+        "languages": [],
+        "tabs": [],
+        "dropdowns": [],
+        "anchors": []
+    }
+}
