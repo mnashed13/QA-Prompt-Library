@@ -3,7 +3,7 @@
     "logo": {
         "light": "/logo/light.svg",
         "dark": "/logo/dark.svg",
-        "href": "https://github.com/yourusername/QA-Prompt-Library"
+        "href": "https://github.com/mnashed13/QA-Prompt-Library"
     },
     "favicon": "/favicon.svg",
     "colors": {
@@ -12,15 +12,16 @@
         "dark": "#0284C7"
     },
     "theme": "mint",
+    "defaultPage": "introduction",
     "topbarLinks": [
         {
             "name": "Support",
-            "url": "https://github.com/yourusername/QA-Prompt-Library/issues"
+            "url": "https://github.com/mnashed13/QA-Prompt-Library/issues"
         }
     ],
     "topbarCtaButton": {
         "name": "GitHub",
-        "url": "https://github.com/yourusername/QA-Prompt-Library"
+        "url": "https://github.com/mnashed13/QA-Prompt-Library"
     },
     "navigation": {
         "groups": [
