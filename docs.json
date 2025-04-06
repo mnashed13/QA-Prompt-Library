@@ -1,76 +1,107 @@
 {
-    "name": "QA Prompt Library",
-    "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg",
-        "href": "https://github.com/mnashed13/QA-Prompt-Library"
-    },
-    "favicon": "/favicon.svg",
-    "colors": {
-        "primary": "#0EA5E9",
-        "light": "#38BDF8",
-        "dark": "#0284C7"
-    },
-    "theme": "mint",
-    "defaultPage": "introduction",
-    "topbarLinks": [
-        {
-            "name": "Support",
-            "url": "https://github.com/mnashed13/QA-Prompt-Library/issues"
-        }
-    ],
-    "topbarCtaButton": {
-        "name": "GitHub",
-        "url": "https://github.com/mnashed13/QA-Prompt-Library"
-    },
-    "navigation": {
-        "groups": [
-            {
-                "group": "Getting Started",
-                "pages": [
-                    "introduction",
-                    "quickstart",
-                    "prompt-structure"
-                ]
-            },
-            {
-                "group": "QA Testing Prompts",
-                "pages": [
-                    "test-case-generation",
-                    "bug-reporting",
-                    "test-planning",
-                    "regression-testing",
-                    "performance-testing"
-                ]
-            },
-            {
-                "group": "Advanced Topics",
-                "pages": [
-                    "automation-testing",
-                    "security-testing",
-                    "api-testing",
-                    "best-practices"
-                ]
-            }
-        ],
-        "pages": [
-            "introduction",
-            "quickstart",
-            "prompt-structure",
-            "test-case-generation",
-            "bug-reporting",
-            "test-planning",
-            "regression-testing",
-            "performance-testing",
-            "automation-testing",
-            "security-testing",
-            "api-testing",
-            "best-practices"
-        ],
-        "versions": [],
-        "languages": [],
-        "tabs": [],
-        "dropdowns": [],
-        "anchors": []
-    }
+	"name": "QA Prompt Library",
+	"logo": {
+		"light": "/logo/light.svg",
+		"dark": "/logo/dark.svg",
+		"href": "https://github.com/mnashed13/QA-Prompt-Library"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#0EA5E9",
+		"light": "#38BDF8",
+		"dark": "#0284C7"
+	},
+	"theme": "mint",
+	"defaultPage": "introduction",
+	"topbarLinks": [
+		{
+			"name": "Support",
+			"url": "https://github.com/mnashed13/QA-Prompt-Library/issues"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "GitHub",
+		"url": "https://github.com/mnashed13/QA-Prompt-Library"
+	},
+	"navigation": {
+		"groups": [
+			{
+				"group": "Getting Started",
+				"pages": [
+					"introduction",
+					"quickstart",
+					"prompt-structure",
+					"prompt-techniques"
+				]
+			},
+			{
+				"group": "QA Testing Prompts",
+				"pages": [
+					"test-case-generation",
+					"bug-reporting",
+					"test-planning",
+					"regression-testing",
+					"performance-testing"
+				]
+			},
+			{
+				"group": "Advanced Topics",
+				"pages": [
+					"automation-testing",
+					"security-testing",
+					"api-testing",
+					"best-practices"
+				]
+			},
+			{
+				"group": "Prompt Techniques",
+				"pages": [
+					"prompt-techniques",
+					"chain-of-thought",
+					"scenario-based",
+					"edge-case-testing",
+					"performance-optimization",
+					"zero-shot"
+				]
+			}
+		],
+		"pages": [
+			"introduction",
+			"quickstart",
+			"prompt-structure",
+			"test-case-generation",
+			"bug-reporting",
+			"test-planning",
+			"regression-testing",
+			"performance-testing",
+			"automation-testing",
+			"security-testing",
+			"api-testing",
+			"best-practices"
+		],
+		"versions": [],
+		"languages": ["en", "ar"],
+		"tabs": [],
+		"dropdowns": [
+			"introduction",
+			"quickstart",
+			"prompt-structure",
+			"test-case-generation",
+			"bug-reporting",
+			"test-planning",
+			"regression-testing",
+			"performance-testing",
+			"automation-testing",
+			"security-testing",
+			"api-testing",
+			"best-practices",
+			"prompt-techniques",
+			"chain-of-thought",
+			"scenario-based",
+			"edge-case-testing",
+			"performance-optimization",
+			"zero-shot"
+		],
+		"anchors": []
+	}
 }

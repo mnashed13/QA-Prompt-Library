@@ -18,6 +18,28 @@
 		{
 			"group": "Guides",
 			"pages": ["best-practices", "bug-reporting"]
+		},
+		{
+			"group": "Test activities",
+			"pages": [
+				"test-planning",
+				"test-case-generation",
+				"test-execution",
+				"test-reporting",
+				"test-automation"
+			]
+		},
+
+		{
+			"group": "Prompt Techniques",
+			"pages": [
+				"prompt-techniques",
+				"chain-of-thought",
+				"scenario-based",
+				"edge-case-testing",
+				"performance-optimization",
+				"zero-shot"
+			]
 		}
 	]
 }
