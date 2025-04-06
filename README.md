@@ -60,3 +60,30 @@ Stay tuned for regular updates and new prompt categories!
 ## Demo Page
 
 - [DemoLink] : https://mndesigns.mintlify.app/introduction
+
+## 🌐 API Access (WIP)
+
+Access the QA Prompt Library programmatically through our public REST API endpoint:
+
+```bash
+GET https://api.qa-prompt-library.com/v1/prompts
+```
+
+### Example Query
+
+```bash
+curl -X GET "https://api.qa-prompt-library.com/v1/prompts?category=test-cases"
+```
+
+### Available Endpoints
+
+- `/prompts`: Get all prompts
+- `/prompts/{category}`: Get prompts by category
+- `/prompts/search`: Search prompts by keyword
+- `/prompts/latest`: Get latest prompts
+
+### API Documentation
+
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/your-workspace/collection/your-collection-id)
+
+For detailed API documentation, visit our [API Reference](https://yourusername.github.io/QA-Prompt-Library/api).
