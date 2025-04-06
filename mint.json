@@ -26,7 +26,7 @@
 				"test-case-generation",
 				"test-execution",
 				"test-reporting",
-				"test-automation"
+				"automation-testing"
 			]
 		},
 
@@ -34,11 +34,10 @@
 			"group": "Prompt Techniques",
 			"pages": [
 				"prompt-techniques",
-				"chain-of-thought",
-				"scenario-based",
-				"edge-case-testing",
-				"performance-optimization",
-				"zero-shot"
+				"Prompt Techniques/chain-of-thought",
+				"Prompt Techniques/edge-case-testing",
+				"Prompt Techniques/zero-shot",
+				"Prompt Techniques/few-shot-prompting"
 			]
 		}
 	]

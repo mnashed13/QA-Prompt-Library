@@ -1,0 +1,16 @@
+{
+	"name": "docs-api",
+	"version": "1.0.0",
+	"description": "API for querying documentation files",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "node src/server.js",
+		"dev": "nodemon src/server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
