@@ -1,0 +1,26 @@
+
+ FAIL  __tests__/app.test.js
+  ● Test suite failed to run
+
+    TypeError: securityMiddleware is not a function
+
+      12 |
+      13 | // Apply security middleware
+    > 14 | securityMiddleware(app);
+         | ^
+      15 |
+      16 | // Apply request tracking middleware
+      17 | app.use(requestTracker);
+
+      at Object.securityMiddleware (app.js:14:1)
+      at Object.require (__tests__/app.test.js:73:13)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.311 s

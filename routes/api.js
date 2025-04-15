@@ -4,12 +4,10 @@ const { cache } = require('../middleware/cache');
 const logger = require('../utils/logger');
 
 // Sample API endpoints
-router.get('/status', cache(60), (req, res) => {
-	logger.info('Status endpoint called');
-	return res.json({
+router.get('/status', (req, res) => {
+	return res.status(200).json({
 		status: 'operational',
 		timestamp: new Date(),
-		version: '1.0.0',
 	});
 });
 
