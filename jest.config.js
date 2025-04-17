@@ -7,10 +7,12 @@ module.exports = {
 	coveragePathIgnorePatterns: [
 		'/node_modules/',
 		'/coverage/',
-		'/config/',
+		'/dist/',
 		'/__tests__/fixtures/',
 	],
 	moduleFileExtensions: ['js', 'json'],
 	testPathIgnorePatterns: ['/node_modules/'],
 	verbose: true,
+	testTimeout: 10000,
+	coverageReporters: ['text', 'lcov', 'clover'],
 };
