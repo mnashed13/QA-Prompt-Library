@@ -1,6 +1,6 @@
 // Set up environment variables for testing
 process.env.NODE_ENV = 'test';
-process.env.PORT = 3001; // Use a different port for testing
+process.env.PORT = 3001;
 
 // Mock environment variables
 process.env.DB_HOST = 'localhost';
