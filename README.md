@@ -63,6 +63,8 @@ Stay tuned for regular updates and new prompt categories!
 
 ## 🌐 API Access (WIP)
 
+(Please note this is a work in progress section as this requires more work on it)
+
 Access the QA Prompt Library programmatically through our public REST API endpoint:
 
 ```bash
